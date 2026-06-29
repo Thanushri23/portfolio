@@ -73,6 +73,6 @@ portfolio/
 
 **Thanushri Vundavalli**
 
-- GitHub: github.com/Thanushri23 
+- GitHub: @Thanushri23
 - LinkedIn: linkedin.com/in/thanushri-vundavalli
 - Email:  thanushrivundavalli123@gmail.com
