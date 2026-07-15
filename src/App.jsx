@@ -4,6 +4,18 @@ const ROLES = ["Flutter Developer", "Angular Developer", "Full-Stack Developer",
 
 const PROJECTS = [
   {
+    id: "leaveLedger",
+    year: "2026",
+    title: "LeaveLedger",
+    subtitle: "Leave Management Platform",
+    stack: ["Next.js", "TypeScript", "Supabase", "PostgreSQL"],
+    description: "Full-stack leave management app with separate Employee and Manager dashboards, real-time balance tracking, and a complete approval workflow.",
+    bullets: ["Role-based access — employees apply for leave, managers approve or reject with comments", "Automatic balance deduction via PostgreSQL RPC function on approval", "Team calendar showing approved leave with color-coded leave types"],
+    github: "https://github.com/Thanushri23/LeaveLedger",
+    live: "https://leave-ledger-qwfvlti26-thanushris-projects-c26840ac.vercel.app",
+    color: "#E63946",
+  },
+  {
     id: "rushz",
     year: "2024",
     title: "Rushz",
@@ -31,7 +43,7 @@ const PROJECTS = [
 
 const SKILLS = [
   { cat: "Mobile", items: ["Flutter", "Dart"] },
-  { cat: "Frontend", items: ["Angular", "TypeScript", "HTML/CSS", "Tailwind", "Bootstrap"] },
+  { cat: "Frontend", items: ["Angular", "Next.js", "React", "TypeScript", "HTML/CSS", "Tailwind", "Bootstrap"] },
   { cat: "Backend", items: ["Node.js", "Express.js", "REST APIs"] },
   { cat: "Database", items: ["MongoDB", "Supabase", "Firebase", "PostgreSQL"] },
   { cat: "Languages", items: ["JavaScript", "Python", "SQL"] },
